@@ -1,12 +1,57 @@
-.header-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+:root{
+    /* light mode color    */
+    --bg-color: #BDE7FD;
+    --text-color: black;
+    --border-color:black;
+    --primary-color: #FF4600;
 
+
+    --box-shadow: 4px -2px 40px 9px rgba(128, 128, 128,0.628)
 }
-.head-list-container{
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+}
+.flex-container{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 12px;
+    flex-wrap: wrap;
+}
+/* navbar  */
+
+.navbar-container{
+    justify-content: space-between;
+    padding: 16px 32px;
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+
+    
+}
+.logo-name{
+    font-weight: bolder;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+.line{
+    color: var(--primary-color);
+    font-weight: bolder;
+    font-size: 2rem;
+
+}
+
+
+.navbar-list{
+    list-style: none;
+    
+}
+.navbar-list a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.navbar-list a:hover{
+    color: var(--primary-color);
 }
