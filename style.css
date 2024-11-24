@@ -122,3 +122,43 @@ body{
 }
 
 
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+}
+.hero-section{
+    background-color: var(--primary-color);
+    border-radius: 12px;
+    max-height:60vh;
+    margin: 4rem 12px;
+}
+.intro-text{
+    color: white;
+    padding: 8px;
+
+}
+
+.download-btn{
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 24px;
+    padding: 12px;
+    margin-top: 2rem;
+}
+.download-btn:hover{
+    cursor: pointer;
+}
+.profile-image{
+    /* border: 2px solid black; */
+    margin: -2rem;
+}
+
+.profile-image img{
+    /* border: 2px solid yellow; */
+    height: 100%;
+    width: 100%;
+}
+
