@@ -79,8 +79,10 @@ body{
     }
 }
 /* MOBILE ONLY DEGISN */
+
 .side-menu{
     display: none;
+    
 }
 @media (max-width:760px) {
     .side-menu{
