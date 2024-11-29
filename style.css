@@ -217,4 +217,103 @@ body{
 .skills-container :nth-child(5) i{
     color: rgb(255, 0, 251);
 }
+/* My Recent Work Section  */
+
+.project-card{
+    width: 230px;
+    height: 250px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: var(--border-color);
+    flex-wrap: wrap;
+    /* gap: 20px; */
+}
+
+.card-image {
+    width: 100%;
+    height: 60%;
+   
+}
+.card-image img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius:12px ;
+    border-top-right-radius:12px ;
+}
+.card-icons{
+    text-align: center;
+    margin-top: 12px;
+    
+}
+.card-icons a{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 12px;
+    color: var(--text-color);
+}
+.card-text{
+    padding: 12px;
+}
+.card-text h4,p{
+    margin: 0;
+}
+
+
+/* About me section  */
+.about-container{
+    /* border: 1px solid black; */
+    height: 45vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+.about-container img{ 
+    /* border: 1px solid black; */
+    
+    height: 40vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    margin-top: 12px;
+    
+    
+}
+.about-container h3, p{ 
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /* border: 1px solid black; */
+   height: 6vh;
+   margin-left: 12px;
+    
+}
+.about-container p{ 
+   /* text-align: center; */
+   /* display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   /* border: 1px solid black; */
+   height: 6vh;
+   margin-left: 12px;
+    
+}
+.about-container h2{ 
+   /* text-align: center; */
+   /* display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; */
+   /* border: 1px solid black; */
+   height: 6vh;
+   margin-left: 12px;
+    
+}
+
+
+
 
