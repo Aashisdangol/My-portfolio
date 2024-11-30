@@ -6,7 +6,13 @@
     --primary-color: #FF4600;
 
 
-    --box-shadow: 4px -2px 40px 9px rgba(128, 128, 128,0.628)
+    --box-shadow: 4px -2px 40px 9px rgba(128, 128, 128,0.628);
+
+    /* dark mode color  */
+    --dark-bg-color:black;
+    --dark-text-color: white;
+    --dark-boder-color:white;
+
 }
 body{
     margin: 0;
@@ -143,7 +149,7 @@ body{
 }
 
 .download-btn{
-    background-color: black;
+    background-color: var(--bg-color);
     color: white;
     border: 0;
     border-radius: 24px;
@@ -166,7 +172,7 @@ body{
 
 /* Summary section  */
 .summary-container{
-    border: 2px solid black;
+    border: 2px solid var(--border-color);
     background-color: white;
     /* width: 80%; */
     border-radius: 24px;
@@ -348,11 +354,11 @@ body{
 
 /* footer  */
 footer{
-    background-color: var(--text-color);
+    background-color: black;
     color: white;
 }
 .footer-container{
-    background-color: var(--text-color);
+    background-color: black;
     color: white;
     margin-top: 12px;
     align-items: start;
@@ -395,3 +401,25 @@ footer{
 }
 
 
+/* dark mode  */
+#dark-mode{
+    display: none;
+}
+.dark-mode-toggle{
+    position: fixed;
+    top: 7rem;
+    left: 8px;
+    cursor: pointer;
+}
+.wrapper-container{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+#dark-mode:checked ~ .wrapper-container{
+    --bg-color:var(--dark-bg-color);
+    --text-color: var(--dark-text-color);
+    --border-color: var(--dark-boder-color);
+    
+
+}
