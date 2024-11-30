@@ -17,34 +17,25 @@
 
 </head>
 <body>
-    <!-- head tag -->
-     <header >
-        <nav class="flex-container navbar-container">
-            <div class="flex-container">
-                <div class="logo-name">Aashis</div>
-                <div class="line">|</div>
-                <p>Soft. Engineer</dipv>
-            </div>
+    <!--Dark mode toggle-->
+    <label class="dark-mode-toggle" for="dark-mode">
+        <i class="fa-solid fa-circle-half-stroke"></i>
+    </label>
+    <input type="checkbox" id="dark-mode"/>
+    
+    <div class="wrapper-container">
 
-            <div>
-                <ul class="flex-container navbar-list">
-                    <li> <a href="#home"> Home</a></li>
-                    <li> <a href="#skills"> Skills</a></li>
-                    <li> <a href="#projects"> Projects</a></li>
-                    <li> <a href="#about"> About</a></li>
-                    <li> <a href="#contact"> Contact</a></li>
-                    
-                </ul>
+        <!-- head tag -->
+        <header >
+            <nav class="flex-container navbar-container">
+                <div class="flex-container">
+                    <div class="logo-name">Aashis</div>
+                    <div class="line">|</div>
+                    <p>Soft. Engineer</dipv>
+                </div>
 
-                <!-- <Hamburger menu on mobile > -->
-                <label for="hamburger-menu">
-                    <i class="fa-solid fa-bars"></i>
-                </label>
-                <input type="checkbox" id="hamburger-menu"/>
-
-                <!-- SIDE MENU -->
-                 <div class="side-menu">
-                    <ul class="flex-container side-menu-list">
+                <div>
+                    <ul class="flex-container navbar-list">
                         <li> <a href="#home"> Home</a></li>
                         <li> <a href="#skills"> Skills</a></li>
                         <li> <a href="#projects"> Projects</a></li>
@@ -52,275 +43,292 @@
                         <li> <a href="#contact"> Contact</a></li>
                         
                     </ul>
-                 </div>
+
+                    <!-- <Hamburger menu on mobile > -->
+                    <label for="hamburger-menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <input type="checkbox" id="hamburger-menu"/>
+
+                    <!-- SIDE MENU -->
+                    <div class="side-menu">
+                        <ul class="flex-container side-menu-list">
+                            <li> <a href="#home"> Home</a></li>
+                            <li> <a href="#skills"> Skills</a></li>
+                            <li> <a href="#projects"> Projects</a></li>
+                            <li> <a href="#about"> About</a></li>
+                            <li> <a href="#contact"> Contact</a></li>
+                            
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero-Section  -->
+        <section id="home">
+            <div class="grid-container hero-section">
+                <div class="intro-text">
+                    Hi I am <b>Aashis</b>
+                    <p><b>Software Engineer</b></p>
+                    <br/>
+                    <p>I Love Codeing!</p>
+                    <a href="./assets/myresume (2).pdf" download="true">
+                        <button class="download-btn">
+                            Download CV <i class="fa-solid fa-download"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class="profile-image">
+                    <img src="./assets/profile1.png" alt="profile-image"/>
+                </div>
 
             </div>
-        </nav>
-     </header>
-
-     <!-- Hero-Section  -->
-      <section id="home">
-        <div class="grid-container hero-section">
-            <div class="intro-text">
-                Hi I am <b>Aashis</b>
-                <p><b>Software Engineer</b></p>
-                <br/>
-                <p>I Love Codeing!</p>
-                <a href="./assets/myresume (2).pdf" download="true">
-                    <button class="download-btn">
-                        Download CV <i class="fa-solid fa-download"></i>
-                    </button>
-                </a>
-            </div>
-            <div class="profile-image">
-                <img src="./assets/profile1.png" alt="profile-image"/>
-            </div>
-
-        </div>
-        
-      </section>
-
-        <!-- Summary Section -->
-         <section>
-            <div class="flex-container summary-container">
-                <div class="flex-container">
-                    <div>
-                        <i class="fa-solid fa-award"></i>
-                    </div>
-                    <div>
-                        <span>5+</span>
-                        <p>Projects</p>
-                    </div>
-                </div>
-
-
-                <div class="vertical-line">|</div>
-                <div class="flex-container">
-                    <div>
-                        <i class="fa-solid fa-award"></i>
-                    </div>
-                    <div>
-                        <span>IT</span>
-                        <p>Graduate</p>
-                    </div>
-                </div>
-                <div class="vertical-line">|</div>
-
-                <div class="flex-container">
-                    <div>
-                        <i class="fa-solid fa-award"></i>
-                    </div>
-                    <div>
-                        <span>1+</span>
-                        <p>Years</p>
-                    </div>
-                </div>
-                
-            </div>
-         </section>
-      
-
-         <!-- Skill - section  -->
-          <section id="Skills">
-            <h2>SKILLS</h2>
-            <div class="flex-container skills-container">
-                <div>
-                    <i class="fa-brands fa-html5"></i>
-                    <p>HTML</p>
-                </div>
-
-                
-                <div>
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <p>CSS</p>
-                </div>
-
-                <div>
-                    <i class="fa-brands fa-js"></i>
-                    <p>JS</p>
-                </div>
-
-                <div>
-                    <i class="fa-brands fa-square-github"></i>
-                    <p>GitHub</p>
-                </div>
-
-                <div>
-                    <i class="fa-brands fa-figma"></i>
-                    <p>Figma</p>
-                </div>
-
-
-
-                
-            </div>
-          </section>
-          
-          <!-- My Recent work section  -->
-           <section id="projects">
-                <center><h2>My Recent Works</h2></center>
-                <div class="flex-container">
-                    <!-- Project-1  -->
-                    <div class="project-card">
-                        <div class="card-image">
-                            <img src="./assets/screenshot.jpg.png"/>
-                        </div>
-
-                        <div class="card-icons">
-                            <a href="#"> <i class="fa-brands fa-github"></i> </a>
-                            <a href="#"> <i class="fa-brands fa-chrome"></i> </a>
-                        </div>
-                        <div class="card-text">
-                            <h4>Personal Portfolio</h4>
-                            <p>HtML | CSS</p>
-                        </div>
-                    </div>
-                    <!-- Project-2 -->
-                    <div class="project-card">
-                        <div class="card-image">
-                            <img src="./assets/screenshot.jpg.png"/>
-                        </div>
-
-                        <div class="card-icons">
-                            <a href="#"> <i class="fa-brands fa-github"></i> </a>
-                            <a href="#"> <i class="fa-brands fa-chrome"></i> </a>
-                        </div>
-                        <div class="card-text">
-                            <h4>Personal Portfolio</h4>
-                            <p>HtML | CSS</p>
-                        </div>
-                    </div>
-                    <!-- Project-3  -->
-                    <div class="project-card">
-                        <div class="card-image">
-                            <img src="./assets/screenshot.jpg.png"/>
-                        </div>
-
-                        <div class="card-icons">
-                            <a href="#"> <i class="fa-brands fa-github"></i> </a>
-                            <a href="#"> <i class="fa-brands fa-chrome"></i> </a>
-                        </div>
-                        <div class="card-text">
-                            <h4>Personal Portfolio</h4>
-                            <p>HtML | CSS</p>
-                        </div>
-                    </div>
-                    <!-- Project-4  -->
-                    <div class="project-card">
-                        <div class="card-image">
-                            <img src="./assets/screenshot.jpg.png"/>
-                        </div>
-
-                        <div class="card-icons">
-                            <a href="#"> <i class="fa-brands fa-github"></i> </a>
-                            <a href="#"> <i class="fa-brands fa-chrome"></i> </a>
-                        </div>
-                        <div class="card-text">
-                            <h4>Personal Portfolio</h4>
-                            <p>HtML | CSS</p>
-                        </div>
-                    </div>
-                    <!-- Project-5  -->
-                    <div class="project-card">
-                        <div class="card-image">
-                            <img src="./assets/screenshot.jpg.png"/>
-                        </div>
-
-                        <div class="card-icons">
-                            <a href="#"> <i class="fa-brands fa-github"></i> </a>
-                            <a href="#"> <i class="fa-brands fa-chrome"></i> </a>
-                        </div>
-                        <div class="card-text">
-                            <h4>Personal Portfolio</h4>
-                            <p>HtML | CSS</p>
-                        </div>
-                    </div>
-                    <!-- Project-6  -->
-                    <div class="project-card">
-                        <div class="card-image">
-                            <img src="./assets/screenshot.jpg.png"/>
-                        </div>
-
-                        <div class="card-icons">
-                            <a href="#"><i class="fa-brands fa-github"></i></a>
-                            <a href="#"><i class="fa-brands fa-chrome"></i></a>
-                        </div>
-                        <div class="card-text">
-                            <h4>Personal Portfolio</h4>
-                            <p>HtML | CSS</p>
-                        </div>
-                    </div>
-
-
-                </div>
+            
         </section>
 
-        <!-- ABout me section  -->
-         <section class="about-container">
-            <div> <img src="./assets/profile1.png"/></div>
-            <div> <h3>About Me</h3>
-                <h2>My Profile</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat facilis, animi placeat unde sequi officiis rerum cum repellendus iste neque officia, vero minus at ut. Tenetur voluptates mollitia alias possimus ipsam unde ea a.</p>
-            </div>
-         </section>
+            <!-- Summary Section -->
+            <section>
+                <div class="flex-container summary-container">
+                    <div class="flex-container">
+                        <div>
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <div>
+                            <span>5+</span>
+                            <p>Projects</p>
+                        </div>
+                    </div>
 
 
-         <!-- Social -meadia -section  -->
-         <section class="social-media-container">
-            <div>Get In Touch</div>
-            <div class="media-icon">
-                <a ><i class="fa-brands fa-linkedin"></i> </a>
-                <a><i class="fa-brands fa-github"></i></a>
-                <a><i class="fa-brands fa-youtube"></i></a>
-                <a href="tel: 0452519338"> <i class="fa-solid fa-mobile"></i></a>
-            </div>
-            <div>OR</div>
-            <div class="email-container">
-                <a href="mailto:dangolaashis1229@gmail.com"> 
-                    mymail@gmail.com <i class="fa-solid fa-papper-plane"></i> 
-                </a>
-            </div>
-         </section>
+                    <div class="vertical-line">|</div>
+                    <div class="flex-container">
+                        <div>
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <div>
+                            <span>IT</span>
+                            <p>Graduate</p>
+                        </div>
+                    </div>
+                    <div class="vertical-line">|</div>
+
+                    <div class="flex-container">
+                        <div>
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <div>
+                            <span>1+</span>
+                            <p>Years</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        
+
+            <!-- Skill - section  -->
+            <section id="Skills">
+                <h2>SKILLS</h2>
+                <div class="flex-container skills-container">
+                    <div>
+                        <i class="fa-brands fa-html5"></i>
+                        <p>HTML</p>
+                    </div>
+
+                    
+                    <div>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <p>CSS</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-js"></i>
+                        <p>JS</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-square-github"></i>
+                        <p>GitHub</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-figma"></i>
+                        <p>Figma</p>
+                    </div>
 
 
-        <!-- Footer -section  -->
-         <footer>
-            <div class="flex-container footer-container">
-                <div>
-                    <h6>Links</h6>
-                    <ul>
-                        <li> <a href="#home"> Home</a></li>
-                        <li> <a href="#skills"> Skills</a></li>
-                        <li> <a href="#projects"> Projects</a></li>
-                        <li> <a href="#about"> About</a></li>
-                        <li> <a href="#contact"> Contact</a></li>
-                    </ul>
+
+                    
+                </div>
+            </section>
+            
+            <!-- My Recent work section  -->
+            <section id="projects">
+                    <center><h2>My Recent Works</h2></center>
+                    <div class="flex-container">
+                        <!-- Project-1  -->
+                        <div class="project-card">
+                            <div class="card-image">
+                                <img src="./assets/screenshot.jpg.png"/>
+                            </div>
+
+                            <div class="card-icons">
+                                <a href="#"> <i class="fa-brands fa-github"></i> </a>
+                                <a href="#"> <i class="fa-brands fa-chrome"></i> </a>
+                            </div>
+                            <div class="card-text">
+                                <h4>Personal Portfolio</h4>
+                                <p>HtML | CSS</p>
+                            </div>
+                        </div>
+                        <!-- Project-2 -->
+                        <div class="project-card">
+                            <div class="card-image">
+                                <img src="./assets/screenshot.jpg.png"/>
+                            </div>
+
+                            <div class="card-icons">
+                                <a href="#"> <i class="fa-brands fa-github"></i> </a>
+                                <a href="#"> <i class="fa-brands fa-chrome"></i> </a>
+                            </div>
+                            <div class="card-text">
+                                <h4>Personal Portfolio</h4>
+                                <p>HtML | CSS</p>
+                            </div>
+                        </div>
+                        <!-- Project-3  -->
+                        <div class="project-card">
+                            <div class="card-image">
+                                <img src="./assets/screenshot.jpg.png"/>
+                            </div>
+
+                            <div class="card-icons">
+                                <a href="#"> <i class="fa-brands fa-github"></i> </a>
+                                <a href="#"> <i class="fa-brands fa-chrome"></i> </a>
+                            </div>
+                            <div class="card-text">
+                                <h4>Personal Portfolio</h4>
+                                <p>HtML | CSS</p>
+                            </div>
+                        </div>
+                        <!-- Project-4  -->
+                        <div class="project-card">
+                            <div class="card-image">
+                                <img src="./assets/screenshot.jpg.png"/>
+                            </div>
+
+                            <div class="card-icons">
+                                <a href="#"> <i class="fa-brands fa-github"></i> </a>
+                                <a href="#"> <i class="fa-brands fa-chrome"></i> </a>
+                            </div>
+                            <div class="card-text">
+                                <h4>Personal Portfolio</h4>
+                                <p>HtML | CSS</p>
+                            </div>
+                        </div>
+                        <!-- Project-5  -->
+                        <div class="project-card">
+                            <div class="card-image">
+                                <img src="./assets/screenshot.jpg.png"/>
+                            </div>
+
+                            <div class="card-icons">
+                                <a href="#"> <i class="fa-brands fa-github"></i> </a>
+                                <a href="#"> <i class="fa-brands fa-chrome"></i> </a>
+                            </div>
+                            <div class="card-text">
+                                <h4>Personal Portfolio</h4>
+                                <p>HtML | CSS</p>
+                            </div>
+                        </div>
+                        <!-- Project-6  -->
+                        <div class="project-card">
+                            <div class="card-image">
+                                <img src="./assets/screenshot.jpg.png"/>
+                            </div>
+
+                            <div class="card-icons">
+                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <a href="#"><i class="fa-brands fa-chrome"></i></a>
+                            </div>
+                            <div class="card-text">
+                                <h4>Personal Portfolio</h4>
+                                <p>HtML | CSS</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+            </section>
+
+            <!-- ABout me section  -->
+            <section class="about-container">
+                <div> <img src="./assets/profile1.png"/></div>
+                <div> <h3>About Me</h3>
+                    <h2>My Profile</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat facilis, animi placeat unde sequi officiis rerum cum repellendus iste neque officia, vero minus at ut. Tenetur voluptates mollitia alias possimus ipsam unde ea a.</p>
+                </div>
+            </section>
+
+
+            <!-- Social -meadia -section  -->
+            <section class="social-media-container">
+                <div>Get In Touch</div>
+                <div class="media-icon">
+                    <a ><i class="fa-brands fa-linkedin"></i> </a>
+                    <a><i class="fa-brands fa-github"></i></a>
+                    <a><i class="fa-brands fa-youtube"></i></a>
+                    <a href="tel: 0452519338"> <i class="fa-solid fa-mobile"></i></a>
+                </div>
+                <div>OR</div>
+                <div class="email-container">
+                    <a href="mailto:dangolaashis1229@gmail.com"> 
+                        mymail@gmail.com <i class="fa-solid fa-papper-plane"></i> 
+                    </a>
+                </div>
+            </section>
+        </div>
+ <!-- Footer -section  -->
+            <footer>
+                <div class="flex-container footer-container">
+                    <div>
+                        <h6>Links</h6>
+                        <ul>
+                            <li> <a href="#home"> Home</a></li>
+                            <li> <a href="#skills"> Skills</a></li>
+                            <li> <a href="#projects"> Projects</a></li>
+                            <li> <a href="#about"> About</a></li>
+                            <li> <a href="#contact"> Contact</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div>
+                        <h6>Social Links</h6>
+                        <ul>
+                            <li> <a href="#"> LinkedIn</a></li>
+                            <li> <a href="#"> Github</a></li>
+                            <li> <a href="#"> Youtube</a></li>
+                            <li> <a href="#"> Facebook</a></li>
+                            <li> <a href="#"> X</a></li>
+                        </ul>
+                    </div>
+
                 </div>
 
+                <center>&copy; copy right all reserved. Made by Aashis</center>
+            </footer>
 
-                <div>
-                    <h6>Social Links</h6>
-                    <ul>
-                        <li> <a href="#"> LinkedIn</a></li>
-                        <li> <a href="#"> Github</a></li>
-                        <li> <a href="#"> Youtube</a></li>
-                        <li> <a href="#"> Facebook</a></li>
-                        <li> <a href="#"> X</a></li>
-                    </ul>
+            <!-- top-section -->
+            <section>
+                <div class="top-section">
+
+                <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+
                 </div>
-
-            </div>
-
-            <center>&copy; copy right all reserved. Made by Aashis</center>
-         </footer>
-
-         <!-- top-section -->
-          <section>
-            <div class="top-section">
-
-              <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
-
-            </div>
-          </section>
+            </section>
+    
 </body>
 </html>
