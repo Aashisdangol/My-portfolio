@@ -346,5 +346,33 @@ body{
      margin-top: 12px;
 }
 
+/* footer  */
+footer{
+    background-color: var(--text-color);
+    color: white;
+}
+.footer-container{
+    background-color: var(--text-color);
+    color: white;
+    margin-top: 12px;
+    align-items: start;
+    gap: 2rem;
+    font-size: large;
+}
+.footer-container ul{
+    padding: 0;
+    list-style: none;
+    color: none;
+    /* color: white; */
+    
+    
+
+}
+.footer-container li a{
+    text-decoration: none;
+    color: white ;
+    font-size: large; 
+
+}
 
 
